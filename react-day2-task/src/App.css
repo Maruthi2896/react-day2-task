@@ -1,6 +1,4 @@
-.container{
-  margin:'30px';
-}
+
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -8,6 +6,7 @@ section.pricing {
 
 .pricing .card {
   border: none;
+  margin:10px;
   border-radius: 1rem;
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
@@ -55,7 +54,7 @@ section.pricing {
 
 @media (min-width: 992px) {
   .pricing .card:hover {
-    margin-top: -.25rem;
+    margin-top: 0.25rem;
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
